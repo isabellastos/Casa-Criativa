@@ -4,7 +4,6 @@
 <head>
   <meta charset="utf-8">
   <link href="style.css" rel="stylesheet">
-  <script type="text/javascript" src="script.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;900&display=swap"
     rel="stylesheet">
 </head>
@@ -16,7 +15,9 @@
     <section id="intro">
 
       <header>
-        <img src="img/logo.png" alt="logomarca casa criativa">
+        <a href="index.html">
+          <img src="img/logo.png" alt="logomarca casa criativa">
+        </a>
       </header>
 
       <main>
@@ -36,11 +37,11 @@
 
       <section id="buttons">
         <button onclick="onOff()">+ Adicionar Ideia</button>
-        <button class="fat">Ver Ideias</button>
+        <a href="ideas.html" class="button">Ver Ideias</a>
       </section>
 
       <footer>
-        Com ❤️ <a href="#">Isa Astos</a>
+        Com ❤️ <a href="#" target="_blank">Isa Astos</a>
       </footer>
 
     </section>
@@ -48,7 +49,7 @@
 
     <section id="last-ideias">
 
-      <div class="ideia">
+      <div class="idea">
         <img src="https://image.flaticon.com/icons/svg/2729/2729007.svg" alt="imagem de curso de programação" />
         <div class="content">
           <h3>Cursos de Programação</h3>
@@ -65,7 +66,7 @@
         </div>
       </div>
 
-      <div class="ideia">
+      <div class="idea">
         <img src="https://image.flaticon.com/icons/svg/2729/2729005.svg" alt="imagem de exercícios" />
         <div class="content">
           <h3>Exercícios</h3>
@@ -82,7 +83,7 @@
         </div>
       </div>
 
-      <div class="ideia">
+      <div class="idea">
         <img src="https://image.flaticon.com/icons/svg/2729/2729027.svg" alt="imagem de Meditação" />
         <div class="content">
           <h3>Meditação</h3>
@@ -143,5 +144,7 @@
     </div>
   </div>
 
+  <script type="text/javascript" src="script.js"></script>
 </body>
+
 </html>
